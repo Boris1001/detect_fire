@@ -12,8 +12,8 @@ args = parser.parse_args()
 video_url = args.url
 
 # Загрузка модели
-#model_YOLO = YOLO('weights/best_150_n.pt')
-model_LSTM = load_model('weights/model_LSTM_17_1000_5.h5')
+#model_YOLO = YOLO('best_150_n.pt')
+model_LSTM = load_model('model_LSTM_17_1000_5.h5')
 crop_dir_name="ultralytics_crop"
 
 # Функция получения кадров огня
