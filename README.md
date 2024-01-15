@@ -3,7 +3,8 @@ An algorithm for determining fire using the object detection method and screenin
 
 Принимает на вход путь к тестируемому видео
 Пример запуска:
- python detect_fire.py -u video/test_video_no_fire_4.mp4
+
+python detect_fire.py -u video/test_video_no_fire_4.mp4
 
 Ссылка на модель lstm https://drive.google.com/file/d/1RKHdaOe7yx6dtWXZ31iVaa-Tmfkyk8Xe/view?usp=drive_link
 
