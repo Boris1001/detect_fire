@@ -1,4 +1,3 @@
-#from keras.models import load_model
 import numpy as np
 import os
 import cv2
@@ -6,7 +5,6 @@ from ultralytics import YOLO
 import json
 import subprocess
 from urllib.parse import urlparse
-#import argparse
 
 # Чтение конфигурации из JSON файла
 with open('config.json', 'r') as file:
