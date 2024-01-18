@@ -48,8 +48,8 @@ def extract_objects(input_path, crop_dir_name="result", resize_dim=(64, 64)):
                 cv2.imwrite(os.path.join(crop_dir_name, f"{idx}.jpg"), crop_obj)
                 extracted_images.append(resized_crop_obj)
                 
-                if len(extracted_images) >= 30:
-                    return extracted_images[:30]
+                if len(extracted_images) >= 10:
+                    return extracted_images[:10]
 
     cap.release()
 
@@ -82,7 +82,7 @@ def predict_fire(sequence):
 
 def process_video_and_predict_fire(input_path):
     sequence = extract_objects(input_path)
-    if sequence and len(sequence) == 30:
+    if sequence and len(sequence) == 10:
         predict_fire(sequence)
     else:
         print("Недостаточно данных для анализа")
