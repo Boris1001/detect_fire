@@ -9,7 +9,7 @@ python detect_fire.py -u video/test_video_no_fire_4.mp4
 
 Ссылка на модель lstm https://drive.google.com/file/d/1RKHdaOe7yx6dtWXZ31iVaa-Tmfkyk8Xe/view?usp=drive_link
 
-Ссылка на модель Yolo https://drive.google.com/file/d/11od9cQS5vrhm8bqCI_ZfVWvhuUPDm02t/view?usp=drive_link
+Ссылка на модель Yolo https://drive.google.com/file/d/1hH23FF--uFlzRdr0ZRa6Evjn23KXJg4P/view?usp=drive_link
 
 Модели скачать в каталог с файлом detect_fire.py
 
