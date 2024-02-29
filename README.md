@@ -6,8 +6,6 @@ pip install ultralytics==8.0.224
 
 Принимает на вход config.json c адресом камеры.
 
-Ссылка на модель Yolo https://drive.google.com/file/d/1hH23FF--uFlzRdr0ZRa6Evjn23KXJg4P/view?usp=drive_link
-
 Модель скачать в каталог с файлом detect_fire.py
 
 
